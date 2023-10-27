@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      // "pageUrl": "https://technorucs365.sharepoint.com/sites/Testcommunicationsite2",
+      "pageUrl": "https://technorucs365.sharepoint.com/sites/Atalaya",
+      "customActions": {
+        "24d20fe0-d1bd-4829-b1e6-cabc3b1efb3b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "helloWorld": {
+      "pageUrl": "https://technorucs365.sharepoint.com/sites/Atalaya",
+
+      // "pageUrl": "https://technorucs365.sharepoint.com/sites/Testcommunicationsite2",
+      "customActions": {
+        "24d20fe0-d1bd-4829-b1e6-cabc3b1efb3b": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}

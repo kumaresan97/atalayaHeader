@@ -1,0 +1,17 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "atalaya-header",
+    "libraryId": "bdc9030c-2b68-4313-abe7-4cfdee0e4fb3",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "atalaya-header",
+    "solutionShortDescription": "atalaya-header description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "ApplicationCustomizer"
+  }
+}

@@ -1,0 +1,28 @@
+.ms-HorizontalNavItem-linkText,
+.ms-HorizontalNavItem-link {
+  color: #a98044 !important;
+  font-weight: 500;
+}
+.is-selected {
+  border-bottom: 2px solid #a98044 !important;
+}
+.ms-HorizontalNav-chevronDown {
+  color: #a98044 !important;
+}
+.ms-ContextualMenu-itemText {
+  color: #a98044 !important;
+}
+[data-custom-class="nonAdmin"] .ms-HorizontalNavItem-Edit {
+  display: none !important;
+}
+/* .sp-App-bodyContainer .ms-HorizontalNavItem-Edit {
+  display: none !important;
+} */
+[data-custom-class="nonAdmin"] #spCommandBar {
+  display: none !important;
+}
+[data-custom-class="nonAdmin"]
+  [data-automationid="SiteHeader"]
+  [class^="actionsWrapper"] {
+  display: none !important;
+}
